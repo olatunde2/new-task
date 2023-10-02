@@ -28,13 +28,17 @@ Prerequisites
 
 Install Python dependencies:
 
-   pip install -r requirements.txt
+     pip install -r requirements.txt
    
 Run database migrations:
 
-  python manage.py migrate
+    python manage.py migrate
 
 Start the development server:
 
-  python manage.py runserver
+    python manage.py runserver
+    
+service run at post 8000 
+
+    127.0.0.1:8000/api/
 
