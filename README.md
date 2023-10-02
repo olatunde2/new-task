@@ -44,4 +44,24 @@ service run at post 8000
 Access ReDoc Documentation
 
     127.0.0.1:8000/redoc/
+    
+
+API Endpoints
+
+1. Combine and Save Video
+URL: /combine_video/
+Method: POST
+Description: Combines video chunks into a complete video and saves it to the database.
+
+2. Get All Videos
+URL: /videos_all/
+Method: GET
+Description: Retrieves a list of all videos stored in the database.
+
+3. Get Complete Video
+URL: /complete_video/<str:session_id>/
+Method: GET
+Description: Retrieves the complete video based on the session ID.
+
+
 
