@@ -59,6 +59,7 @@ def get_all_videos(request):
         return JsonResponse({'message': 'Error: ' + str(e)}, status=500)
 
 
+@api_view(['GET'])
 def get_complete_video(request, session_id):
     try:
         # Query the database for the complete video based on the session_id

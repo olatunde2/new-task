@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-r4()_r%f6y0&w^w&*56w9leuh=khy=krkzzala5=%7cph(90uf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'videos',
     'rest_framework',
     'corsheaders',
+    'drf_yasg',
 ]
 
 REST_FRAMEWORK = {
@@ -95,12 +96,8 @@ WSGI_APPLICATION = 'video.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': "olatunde2$task",
-        'USER': "olatunde2",
-        'PASSWORD': "okanlawon@123",
-        'HOST': "olatunde2.mysql.pythonanywhere-services.com",
-        'PORT':  '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
