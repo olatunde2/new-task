@@ -39,5 +39,5 @@ Start the development server:
     
 service run at post 8000 
 
-    127.0.0.1:8000/api/
+    127.0.0.1:8000/
 
