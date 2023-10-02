@@ -17,7 +17,6 @@ Prerequisites
 - Python 
 - Django 
 - Django Rest Framework 
-- PostgreSQL
 
  Installation
 
