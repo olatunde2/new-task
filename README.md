@@ -22,7 +22,7 @@ These instructions will help you set up and run the project on your local machin
 
 ## Clone the repository:
 
-   
+   ```shell
    git clone https://github.com/olatunde2/new-task.git
 
 ## Install Python dependencies:
